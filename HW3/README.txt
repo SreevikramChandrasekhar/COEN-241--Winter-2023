@@ -65,14 +65,14 @@ rtt min/avg/max/mdev = 2.586/5.393/8.204/1.561 ms
 rtt min/avg/max/mdev = 8.292/19.766/32.432/3.105 ms
 
 Ans 2a.
-Average time to ping -  h1 and h2 - 5.488
-Average time to ping - h1 and h8 - 19.811
+Average time to ping -  h1 and h2 - 5.488 ms
+Average time to ping - h1 and h8 - 19.811 ms
 
 Ans 2b. 
-Minimum ping - h1 and h2 - 2.542
-Minimum ping - h1 and h8 - 8.348
-Maximum ping - h1 and h2 - 8.207
-Maximum ping - h1 and h8 - 32.866
+Minimum ping - h1 and h2 - 2.542 ms
+Minimum ping - h1 and h8 - 8.348 ms
+Maximum ping - h1 and h2 - 8.207 ms
+Maximum ping - h1 and h8 - 32.866 ms
 
 Ans 2c.
 Typically, pinging h1 to h2 takes lesser than pinging h8. This is because reaching h8 requires significantly more number of hops than reaching h2.
@@ -115,14 +115,14 @@ rtt min/avg/max/mdev = 2.213/6.734/11.899/1.443 ms
 rtt min/avg/max/mdev = 8.434/20.205/27.575/2.643 ms
 
 Ans 2a.
-Average time to ping -  h1 and h2 - 6.476
-Average time to ping - h1 and h8 - 20.568
+Average time to ping -  h1 and h2 - 6.476 ms
+Average time to ping - h1 and h8 - 20.568 ms
 
 Ans 2b. 
-Minimum ping - h1 and h2 - 2.346
-Minimum ping - h1 and h8 - 8.752
-Maximum ping - h1 and h2 - 11.878
-Maximum ping - h1 and h8 - 27.940
+Minimum ping - h1 and h2 - 2.346 ms
+Minimum ping - h1 and h8 - 8.752 ms
+Maximum ping - h1 and h2 - 11.878 ms
+Maximum ping - h1 and h8 - 27.940 ms
 
 Ans 2c.
 The pings are quite faster in Task 2, than in switches because the maximum RTT for h1-h2 is larger as the controller is introducing the rule. The change was visible because of the controller as it was able to distinguish the port numbers and build the forwarding rules. 

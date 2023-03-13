@@ -93,7 +93,7 @@ mininet> iperf h1 h8
 *** Results: ['2.32 Mbits/sec', '2.66 Mbits/sec']
 
 Ans 3c.
-The throughput is higher between h1 and h2 that h1 and h8 because there are lesser number of switches between h1 and h2. Hence, a longer time is required to transfer the data from h1 to h8. 
+The throughput is higher between h1 and h2 than h1 and h8 because there are lesser number of switches between h1 and h2. Hence, a longer time is required to transfer the data from h1 to h8. 
 
 Ans 4.
 By adding log.info("Switch observing traffic: %s" % (self.connection)) in the line number 107 "of_tutorial" controller we can get the details, which help us to observe the traffic. Once we run the of_tutorial.py file we can observe that all switches receive traffic, and are flooded with packets as h1 to h8 is connected with switches.
@@ -111,7 +111,7 @@ Ans 2:
 rtt min/avg/max/mdev = 2.213/6.734/11.899/1.443 ms
 
 --- 10.0.0.8 ping statistics ---
-100 packets transmitted, 100 received, 0% packet loss, time 99816ms
+100 packets transmitted, 100 received, 0% packet loss, time 99267ms
 rtt min/avg/max/mdev = 8.434/20.205/27.575/2.643 ms
 
 Ans 2a.
